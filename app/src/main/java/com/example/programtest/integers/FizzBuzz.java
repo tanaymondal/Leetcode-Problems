@@ -2,6 +2,7 @@ package com.example.programtest.integers;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class FizzBuzz {
 
@@ -11,11 +12,14 @@ public class FizzBuzz {
     // and for the multiples of ‘5’ and ‘3’ print “FizzBuzz”.
 
     public static void main(String[] args){
+
         List<String> list = solution();
         System.out.println(list);
+
     }
 
     private static List<String> solution() {
+        ;
         List<String> array = new ArrayList<>();
         // first solution
 /*        for (int i = 1; i <= 100 ; i++) {

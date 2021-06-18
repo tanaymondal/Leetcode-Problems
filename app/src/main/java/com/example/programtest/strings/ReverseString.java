@@ -12,6 +12,7 @@ public class ReverseString {
 
         char[] array = string.toCharArray();
 
+
         int left = 0;
         int right = array.length - 1;
 
